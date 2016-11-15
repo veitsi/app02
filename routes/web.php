@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','ListController@index');
+
+// Route::get('/', function () {
+//     // return view('welcome');
+//     //return 'Hello, Laravel';
+// });
