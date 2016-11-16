@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class ListController extends Controller
 {
     function index(){
-      return view('list');
+      $persons=\DB::table('users')->get();
+      return view('list', compact('persons'));
     }
 }

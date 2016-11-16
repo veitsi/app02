@@ -1,3 +1,5 @@
 Project1:
   ☐ для ларавеля нужно еще поставить pdo
+  ☐ set debug level in php.ini
   ☐ to launch sqlite3 from console
+  ☐ laravel seeder doesn't work?
